@@ -6,7 +6,18 @@
 
     <groupId>com.course.testng</groupId>
     <artifactId>study1</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>chapter5</module>
+        <module>chapter6</module>
+    </modules>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>6.14.3</version>
+        </dependency>
+    </dependencies>
 </project>
